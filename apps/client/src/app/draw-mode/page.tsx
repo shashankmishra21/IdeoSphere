@@ -16,10 +16,16 @@ export default function () {
     <ProtectedRoute>
       <div className="px-5 lg:px-10 py-6 w-full h-full">
         <div className="flex justify-between items-center">
-          <div className="text-2xl sm:text-3xl">
+          {/* <div className="text-2xl sm:text-3xl">
             ძထძℓ౿
             <span className="px-1.5 py-0.5 rounded-xl text-cyan-400">
               ᦓραсꫀ
+            </span>
+          </div> */}
+          <div className="text-2xl sm:text-3xl">
+            𝓘𝓭𝓮𝓸
+            <span className="px-1.5 py-0.5 rounded-xl text-cyan-400">
+              𝓢𝓹𝓱𝓮𝓻𝓮
             </span>
           </div>
           <div className="w-12 h-12 flex items-center justify-center bg-white rounded-full text-black text-2xl hover:cursor-pointer hover:scale-105">
@@ -36,15 +42,15 @@ export default function () {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
-              <SelectMode type="draw" href="/canvas"/>
-              <SelectMode type="join" onClick={() => setJoinRoom(true)}/>
-              <SelectMode type="create" onClick={() => setCreateRoom(true)}/>
+              <SelectMode type="draw" href="/canvas" />
+              <SelectMode type="join" onClick={() => setJoinRoom(true)} />
+              <SelectMode type="create" onClick={() => setCreateRoom(true)} />
               {/* <SelectMode type="play" href="/play"/> */}
             </div>
           </div>
         </div>
-        {joinRoom && <JoinRoom setJoinRoom={setJoinRoom}/>}
-        {createRoom && <CreateRoom setCreateRoom={setCreateRoom}/>}
+        {joinRoom && <JoinRoom setJoinRoom={setJoinRoom} />}
+        {createRoom && <CreateRoom setCreateRoom={setCreateRoom} />}
       </div>
     </ProtectedRoute>
   );

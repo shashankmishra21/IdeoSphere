@@ -7,7 +7,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import Background from "./Background";
 import Grid from "./Grid";
-import Video from "./Video";
+// import Video from "./Video";
 import { LineSquiggle } from "lucide-react";
 import { Features } from "./Features";
 import { CTA } from "./Cta";
@@ -48,12 +48,12 @@ export default function Hero() {
                 </div>
                 <div className="flex flex-col justify-center items-center gap-4 sm:gap-8 mt-14">
                   <div className="2xl:w-6xl text-4xl sm:text-5xl md:text-6xl text-center tracking-wider leading-14 sm:leading-24 xl:px-0 lg:px-8 md:px-6">
-                    Every <span className="text-cyan-400">ძထძℓ౿</span> begins with a
+                    Every <span className="text-cyan-400">𝓲𝓭𝓮𝓪</span> begins with a
                     spark illuminating creativity
                   </div>
                   <div className="text-xl xl:text-2xl md:w-2xl lg:w-3xl text-center text-white/60">
-                    Let your doodles turn into memories! Create shapes effortlessly
-                    or just have fun — Doodle Space is your boundless space to
+                    Let your ideas turn into memories! Create shapes effortlessly
+                    or just have fun — IdeoSphere is your boundless space to
                     create and grow
                   </div>
                   <button
@@ -68,9 +68,9 @@ export default function Hero() {
             <AnimateScroll delay={100}>
               <Grid />
             </AnimateScroll>
-            <AnimateScroll delay={100}>
-              <Video />
-            </AnimateScroll>
+            {/* <AnimateScroll delay={100}> */}
+              {/* <Video /> */}
+            {/* </AnimateScroll> */}
             <AnimateScroll delay={100}>
               <Features />
             </AnimateScroll>

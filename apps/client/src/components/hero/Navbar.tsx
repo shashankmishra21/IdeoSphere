@@ -13,8 +13,8 @@ export default function Navbar() {
     <div className="flex justify-between relative">
       <div className="">
         <div className="text-2xl sm:text-3xl">
-          ძထძℓ౿
-          <span className="px-1.5 py-0.5 rounded-xl text-cyan-400">ᦓραс౿</span>
+          𝓘𝓭𝓮𝓸
+          <span className="px-1.5 py-0.5 rounded-xl text-cyan-400">𝓢𝓹𝓱𝓮𝓻𝓮</span>
         </div>
       </div>
 
